@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<script language>
+function report(url)
+{
+	window.navigate(url);
+}
+</script>
+</head>
+<body align="center" >
+<form>
+<center>
+<br/>
+<h1>MAIN MENU</h1>
+
+<input type="button" value="view details" onclick="report('./facultydetails.html')"><br><br>
+<input type="button" value="view Monthly Attendance for a single Student" onclick="report('./facultystudentmonthlyinfo.html')"><br><br>
+<input type="button" value="view Monthly Attendance for a Department" onclick="report('./facultymonthlyinfo.html')"><br><br>
+<input type="button" value="Sign out" onclick="report('./signout.html')">
+</center>
+</form>
+</body>
+</html>
